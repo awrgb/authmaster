@@ -74,7 +74,7 @@ export const LoginForm = () => {
       backButtonLabel=""
       backButtonHref=""
       showSocial children={undefined}    >
-      {/* <Form {...form}>
+       <Form {...form}>
         <form 
           onSubmit={form.handleSubmit(onSubmit)}
           className="space-y-6"
@@ -160,7 +160,7 @@ export const LoginForm = () => {
             {showTwoFactor ? "Confirm" : "Login"}
           </Button>
         </form>
-      </Form> */}
+      </Form> 
     </CardWrapper>
   );
 };
